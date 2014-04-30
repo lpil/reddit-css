@@ -43,7 +43,7 @@
 
 /* This is for the header link banner.
  * The text is in the description in a numbered list.
- * Thanks gavin19!
+ * Thanks /u/gavin19!
  */
 .side ol {
   position: absolute;
@@ -81,7 +81,7 @@ div.titlebox span.word { display: none }
 div.titlebox .subscribers span.number:after  { content: " Disc Jockeys" }
 div.titlebox .users-online span.number:after { content: " DJs online" }
 
-/* new submit buttons by omers! :D
+/* new submit buttons by /u/omers! :D
  * v2 by Louis /u/MrPopinjay
  */
 div.side div.create{ display: none; }
