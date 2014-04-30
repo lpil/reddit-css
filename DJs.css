@@ -1,0 +1,117 @@
+/* sidebar headers*/
+.titlebox .usertext .md > h1 {
+  background: #E8E8E8;
+  font-weight: bold;
+  font-size: 120%;
+  color: #000000;
+  text-align: left;
+  padding: 8px 35px 8px 35px;
+  margin: 10px;
+  display: block;
+  width: 65%;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-image: url(%%RedditAlienFace%%);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 10px 8px
+}
+
+/* Downvote hover */
+.arrow.down:hover:before {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  padding: 5px;
+  border: 0px solid #FFFFFF;
+  background: #E8E8E8;
+  content: "Reddiquette!";
+  text-align: center;
+  font-size: 11px;
+  color: black;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px
+}
+
+/* This is for the header link banner.
+ * The text is in the description in a numbered list.
+ * Thanks gavin19!
+ */
+.side ol {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  list-style: none;
+  font-weight: normal;
+  font-size: 115%;
+  color: #000;
+  text-align: left;
+  margin: 10px;
+  display: block;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 11px 8px;
+  max-width: calc(100% - 320px);
+}
+.side ol li {
+  background-image: url(%%RedditAlienFace%%);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0 15px 0 25px;
+  display: inline-block;
+}
+.side ol li a { }
+.side ol li a[href*="one"] { }
+.side ol li a[href*="two"] { }
+.side ol li a:hover { }
+div.content {
+  margin-top: 40px
+}
+
+div.titlebox span.word { display: none }
+div.titlebox .subscribers span.number:after  { content: " Disc Jockeys" }
+div.titlebox .users-online span.number:after { content: " DJs online" }
+
+/* new submit buttons by omers! :D */
+div.side div.create{ display: none; }
+div.side div.submit{ display: none; } 
+
+/* special submit buttons */
+div.side a[href*="submit?sidebar"]:before{
+  display: block; 
+  height: 31px;
+  width: 24px;
+  background: url("%%redditsprites%%") repeat scroll -76px -472px white;
+  position: absolute;
+  z-index: 100;
+  content: "";
+  left: 250px;
+  top: -1px;
+}
+div.side a[href*="submit?sidebar"]{
+  color: #336699;
+  display: block;
+  width: 250px;
+  text-decoration: none;
+  font-size: 145%;
+  line-height: 29px;
+  text-align: left;
+  padding-left: 20px;
+  background: url("%%redditsprites%%") repeat scroll 0 -228px white;
+  border: 1px solid #C4DBF1;
+  font-weight: bold;
+  height: 29px;
+  letter-spacing: -1px;
+  position: relative;
+}
+div.side a[href*="submit?sidebar"]:hover::before{
+  background: url("%%redditsprites%%") repeat scroll -52px -472px white;
+}
+div.side a[href*="submit?sidebar"]:hover{
+  background: url("%%redditsprites%%") repeat scroll 0 -198px white;
+  border: 1px solid #879EB4;
+}
