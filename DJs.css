@@ -1,3 +1,8 @@
+/* r/DJs Styleshee maintained by /u/MrPopinjay
+ * https://github.com/lpil/reddit_css/blob/master/DJs.css
+ * Pull requests welcome.
+ */
+
 /* sidebar headers*/
 .titlebox .usertext .md > h1 {
   background: #E8E8E8;
@@ -42,7 +47,7 @@
  */
 .side ol {
   position: absolute;
-  top: 65px;
+  top: 70px;
   left: 10px;
   list-style: none;
   font-weight: normal;
@@ -69,25 +74,25 @@
 .side ol li a[href*="two"] { }
 .side ol li a:hover { }
 div.content {
-  margin-top: 40px
+  margin-top: 45px
 }
 
 div.titlebox span.word { display: none }
 div.titlebox .subscribers span.number:after  { content: " Disc Jockeys" }
 div.titlebox .users-online span.number:after { content: " DJs online" }
 
-/* new submit buttons by omers! :D */
+/* new submit buttons by omers! :D
+ * v2 by Louis /u/MrPopinjay
+ */
 div.side div.create{ display: none; }
 div.side div.submit{ display: none; } 
-
-/* special submit buttons */
 div.side a[href*="submit?sidebar"]:before{
   display: block; 
   height: 31px;
   width: 24px;
   background: url("%%redditsprites%%") repeat scroll -76px -472px white;
   position: absolute;
-  z-index: 100;
+  z-index: 1000;
   content: "";
   left: 250px;
   top: -1px;
@@ -97,7 +102,7 @@ div.side a[href*="submit?sidebar"]{
   display: block;
   width: 250px;
   text-decoration: none;
-  font-size: 145%;
+  font-size: 140%;
   line-height: 29px;
   text-align: left;
   padding-left: 20px;
@@ -106,12 +111,24 @@ div.side a[href*="submit?sidebar"]{
   font-weight: bold;
   height: 29px;
   letter-spacing: -1px;
-  position: relative;
+  position: absolute;
 }
+div.side p:nth-child(1) a[href*="submit?sidebar"] { top: 110px; }
+div.side p:nth-child(2) a[href*="submit?sidebar"] { top: 145px; }
+div.side p:nth-child(3) a[href*="submit?sidebar"] { top: 180px; }
+div.side p:nth-child(4) a[href*="submit?sidebar"] { top: 215px; }
+div.side p:nth-child(5) a[href*="submit?sidebar"] { top: 250px; }
+
 div.side a[href*="submit?sidebar"]:hover::before{
   background: url("%%redditsprites%%") repeat scroll -52px -472px white;
 }
 div.side a[href*="submit?sidebar"]:hover{
   background: url("%%redditsprites%%") repeat scroll 0 -198px white;
   border: 1px solid #879EB4;
+}
+.side h1.redditname {
+  margin-top: 190px;
+}
+.side .md {
+  overflow: visible;
 }
