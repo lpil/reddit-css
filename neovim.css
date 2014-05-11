@@ -1,0 +1,30 @@
+/* /r/neovim Styleshee maintained by /u/MrPopinjay
+ * https://github.com/lpil/reddit_css/blob/master/neovim.css
+ * Pull requests welcome.
+ *
+ * Here's a tip- you can edit text fields like these using an external editor
+ * with the vimperator plugin for Firefox. I'm typing this in vim!
+ */
+
+.wiki-page-content pre,
+.usertext-body pre {
+  margin: 10px 0;
+  padding: 5px
+}
+.wiki-page-content pre,
+.wiki-page-content p>code,
+.usertext-body pre,
+.usertext-body p>code {
+  font-size: 111%;
+  background: #f6f6f6;
+  border: 1px solid #ccc;
+}
+.wiki-page-content code,
+.usertext-body code {
+  color: #222;
+  line-height:1.5em
+}
+.wiki-page-content p>code,
+.usertext-body p>code {
+  padding: 0 3px
+}
