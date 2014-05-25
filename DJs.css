@@ -132,3 +132,8 @@ div.side a[href*="submit?sidebar"]:hover{
 .side .md {
   overflow: visible;
 }
+.side .linkinfo,
+.side .sponsorshipbox {
+  position: relative;
+  top: 180px;
+}
