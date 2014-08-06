@@ -137,3 +137,7 @@ div.side a[href*="submit?sidebar"]:hover{
   position: relative;
   top: 180px;
 }
+#searchexpando {
+  position: relative;
+  top: 185px;
+}
