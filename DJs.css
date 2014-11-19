@@ -14,8 +14,7 @@
   margin: 10px;
   display: block;
   width: 65%;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 8px;
   background-image: url(%%RedditAlienFace%%);
   background-repeat: no-repeat;
   background-position: left;
@@ -37,8 +36,8 @@
   font-weight: bold;
   margin-left: 25px;
   margin-top: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px
+  border-radius: 5px;
+  border-radius: 5px
 }
 
 /* This is for the header link banner.
