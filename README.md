@@ -26,3 +26,4 @@ neovim.css    | [/r/neovim](http://www.reddit.com/r/neovim)
 #### [/r/DJs](http://www.reddit.com/r/DJs)
 
 * [/u/ke7ofi](http://www.reddit.com/u/ke7ofi)
+* [/u/kuzimoto](http://www.reddit.com/u/kuzimoto)

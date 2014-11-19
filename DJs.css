@@ -137,6 +137,7 @@ div.side a[href*="submit?sidebar"]:hover{
   position: relative;
   top: 180px;
 }
+#login_login-main,
 #searchexpando {
   position: relative;
   top: 185px;
