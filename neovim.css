@@ -7,22 +7,22 @@
  */
 
 #header {
-  background-color: white;
-  border-bottom-color: white;
+  background-color: #fff;
+  border-bottom-color: #fff;
 }
 
 #header-bottom-left a {
-  background-color: white;
+  background-color: #fff;
   color: #3c92d1;
 }
 
 .pagename a {
-  background-color: white;
+  background-color: #fff;
   color: #3c92d1;
 }
 
 .tabmenu li.selected a {
-  border-color: white;
+  border-color: #fff;
 }
 
 .wiki-page-content pre,
