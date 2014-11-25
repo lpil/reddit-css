@@ -6,6 +6,25 @@
  * with the vimperator plugin for Firefox. I'm typing this in vim!
  */
 
+#header {
+  background-color: white;
+  border-bottom-color: white;
+}
+
+#header-bottom-left a {
+  background-color: white;
+  color: #3c92d1;
+}
+
+.pagename a {
+  background-color: white;
+  color: #3c92d1;
+}
+
+.tabmenu li.selected a {
+  border-color: white;
+}
+
 .wiki-page-content pre,
 .usertext-body pre {
   margin: 10px 0;
