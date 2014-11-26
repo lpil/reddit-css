@@ -12,8 +12,8 @@ neovim.css    | [/r/neovim](http://www.reddit.com/r/neovim)
 #### [/r/DJs](http://www.reddit.com/r/DJs)
 
 * [/u/gavin19](http://www.reddit.com/u/gavin19)
-* [/u/omers](http://www.reddit.com/u/omers)
 * [/u/MrPopinjay](http://www.reddit.com/u/MrPopinjay)
+* [/u/omers](http://www.reddit.com/u/omers)
 
 
 #### [/r/neovim](http://www.reddit.com/r/neovim)
