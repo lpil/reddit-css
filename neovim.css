@@ -6,23 +6,16 @@
  * with the vimperator plugin for Firefox. I'm typing this in vim!
  */
 
-#header {
-  background-color: #fff;
-  border-bottom-color: #fff;
-}
-
-#header-bottom-left a {
-  background-color: #fff;
-  color: #3c92d1;
-}
-
+#header,
+#header-bottom-left a,
+.tabmenu li.selected a,
 .pagename a {
-  background-color: #fff;
-  color: #3c92d1;
+  background: none;
+  border: none;
 }
 
-.tabmenu li.selected a {
-  border-color: #fff;
+a {
+  color: #3c92d1;
 }
 
 .wiki-page-content pre,
@@ -30,6 +23,7 @@
   margin: 10px 0;
   padding: 5px;
 }
+
 .wiki-page-content pre,
 .wiki-page-content p>code,
 .usertext-body pre,
@@ -38,12 +32,14 @@
   background: #f6f6f6;
   border: 1px solid #ccc;
 }
+
 .wiki-page-content code,
 .usertext-body code {
   color: #222;
   line-height:1.5em;
 }
-.wiki-page-content p>code,
-.usertext-body p>code {
+
+.wiki-page-content p > code,
+.usertext-body p > code {
   padding: 0 3px;
 }
