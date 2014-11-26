@@ -34,6 +34,10 @@ a {
 
 h2 {
   font-size: 15px;
+}
+
+.tabmenu li.selected a.choice,
+h2 {
   color: #54a23d;
 }
 
@@ -61,4 +65,8 @@ h2 {
 .wiki-page-content p > code,
 .usertext-body p > code {
   padding: 0 3px;
+}
+
+.link {
+  margin-top: 15px;
 }
