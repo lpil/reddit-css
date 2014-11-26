@@ -19,6 +19,7 @@ neovim.css    | [/r/neovim](http://www.reddit.com/r/neovim)
 #### [/r/neovim](http://www.reddit.com/r/neovim)
 
 * [/u/MrPopinjay](http://www.reddit.com/u/MrPopinjay)
+* [/u/rockzombie2](http://www.reddit.com/u/rockzombie2)
 
 
 ## Bug reporters
