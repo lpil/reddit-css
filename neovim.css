@@ -23,6 +23,11 @@ a {
   color: #3c92d1;
 }
 
+h2 {
+  font-size: 15px;
+  color: #54a23d;
+}
+
 .wiki-page-content pre,
 .usertext-body pre {
   margin: 10px 0;
